@@ -1,22 +1,57 @@
+/* Menu of the day css */
 .menuoftheday  {
     text-align: center;
 }
 
 .menuoftheday a {
     width: auto;
-    height: 60px;
+    height: 5%;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 25px;
-    padding-right: 25px;
+    padding-right: 20px;
     font-size: 25px;
-    font-family: "Montserrat", Sans-serif;
+    /* font-family: "Montserrat", Sans-serif; */
+    font-family: "Courier New",Sans-serif;
     border: 1px;
+    border-radius: 8px;
 }
 
 .menuoftheday a:hover {
     background-color: white;
     color: rgb(59,130,62);
+}
+
+/* divider css  */
+.divider
+{
+	position: relative;
+    margin-top: 10px;
+	height: 1px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(119, 183, 135), transparent);
+}
+
+/* title of the type of menu */
+.typeofmenu
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Courier New";
+    font-size: 30px;
 }
